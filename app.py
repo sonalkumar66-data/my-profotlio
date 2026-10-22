@@ -70,10 +70,10 @@ MY_INFO = {
 }
 
 # ============ HERO SECTION ============
-# Yahan aapki photo ka link aapke GitHub username ke hisaab se set hai
+# Yahan link mein '.png' update kar diya gaya hai aur cache hatane ke liye ?v=2 lagaya hai
 st.markdown(f"""
 <div class="hero">
-    <img src="https://raw.githubusercontent.com/sonalkumar66-data/my-portfolio/main/profile.png" class="profile-pic" onerror="this.style.display='none'">
+    <img src="https://raw.githubusercontent.com/sonalkumar66-data/my-portfolio/main/profile.png?v=2" class="profile-pic" onerror="this.style.display='none'">
     <h1>{MY_INFO['name']}</h1>
     <h3>{MY_INFO['role']}</h3>
     <p style="color:#94a3b8; font-size:14px;">📍 {MY_INFO['location']} &nbsp;|&nbsp; ✉️ {MY_INFO['email']}</p>
